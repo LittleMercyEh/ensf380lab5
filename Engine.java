@@ -1,21 +1,21 @@
 package edu.ucalgary.oop;
 
 public class Engine{
-    private string EngineType;
+    private String engineType;
 
     public Engine(String engineType) {
         this.engineType = engineType;
     }
 
     public Engine(Engine other){
-        this.EngineType = other.EngineType;
+        this.engineType = other.engineType;
     }
 
-    public string getEngineType(){
+    public String getEngineType(){
         return engineType;
     }
 
-    public void setEngineType(string engineType){
+    public void setEngineType(String engineType){
         this.engineType = engineType;
     }
 }
